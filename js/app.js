@@ -24,6 +24,8 @@ function hexClock() {
 
   clock.textContent = clockStr;
   hexColor.textContent = colorStr;
-}
 
+  document.body.style.background = colorStr;
+}
 hexClock();
+setInterval(hexClock, 1000);
