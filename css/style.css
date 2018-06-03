@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10%;
+  text-align: center;
+}
+
+#clock {
+  font-weight: 300;
+  font-size: 100px;
+}
+
+#hex-color {
+  font-size: 30px;
+}
