@@ -49,5 +49,5 @@ function timeChange() {
   }
 }
 timeChange();
-hexClock(civilianMode);
-setInterval(hexClock, 1000, civilianMode);
+hexClock();
+setInterval(hexClock, 1000);
